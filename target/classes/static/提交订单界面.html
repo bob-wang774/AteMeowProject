@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style type="text/css">
+			.down{
+				position: fixed;
+				bottom: 10px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<header class="mui-bar mui-bar-nav"style="background-color: yellow;">
+		    <a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+		    <h1 class="mui-title">提交订单</h1>
+		</header>
+		
+		<div class="mui-content">
+		   <div class="mui-slider">
+		       <div class="mui-slider-indicator mui-segmented-control mui-segmented-control-inverted">
+		           <a class="mui-control-item" href="#item1">外卖配送</a>
+		           <a class="mui-control-item" href="#item2">到店自取</a>
+		       </div>
+		       <div id="sliderProgressBar" class="mui-slider-progress-bar mui-col-xs-6"></div>
+		       <div class="mui-slider-group">
+		           <div id="item1" class="mui-slider-item mui-control-content mui-active">
+		               <ul class="mui-table-view" style="border: 1px #BBBBBB solid;width: 92%;margin-left: 4%;border-radius: 15px; ">
+		                   <li class="mui-table-view-cell" style="float: left;" >北大青鸟融科软件学院</li>
+		                   <a style="float: right;color: #ACACB4;"><span class="mui-icon mui-icon-forward"></span></a>
+		                   <li class="mui-table-view-cell" style="clear: both; float: left;">立即送出</li>
+		                   <a style="float: right;color: red;">大约15：03送达<span class="mui-icon mui-icon-forward" style="color: #ACACB4;"></span></a>
+		               </ul>
+		           </div>
+		           <div id="item2" class="mui-slider-item mui-control-content">
+		               <ul class="mui-table-view">
+		                   <li class="mui-table-view-cell">洛阳市西工区唐宫西路</li>
+		                   <li class="mui-table-view-cell">第2个选项卡子项</li>
+		               </ul>
+		           </div>
+		       </div>
+		   </div>
+		   <div class="zhifu" style="border: 1px #BBBBBB solid;width: 92%;margin-left: 4%;height: 40px;text-align: left;margin-top: 10px;border-radius: 15px;text-align: left;line-height: 40px;">
+		   	<a style="color: black;margin-left: 10px;float: left;">支付</a>
+		   	<div style="float: right;">
+		   		<a style="color: black;">普通支付</a>
+		   	    <a style="color: #ACACB4"><span class="mui-icon mui-icon-forward"></span></a>
+		   	</div>
+		   	
+		   </div>
+		   <div style="width: 92%;border: 1px #BBBBBB solid; height: 360px;margin-left: 4%;border-radius: 15px;margin-top: 10px;">
+		   	<div>
+		   		窑鸡王(建业凯旋广场店)
+		   		<hr />
+		   	</div>
+		   	<div style="height: 80px;width: 92%;">
+		   		<div>
+		   			<a style="float: left;"><img src="images/3-1.png"></a> 
+		   			<p>现烤窑鸡(半只)</p>
+		   			<p>原味窑鸡</p>
+		   			<p>×1</p>
+		   		</div>
+		   	
+		   		<a style="float: right;margin-top: -50px;color: black;">￥38.8</a>
+		   	</div>
+		   	<div >
+		   		<p style="float:left ;">打包费</p>
+		   		<p style="float: right;">￥2.5</p>
+		   	</div>
+		   	<div>
+		   		<p style="clear: both;float: left;">配送费</p>
+		   		<p style="float: right;">￥9</p>
+		   	</div>
+		   	<div>
+		   		<p style="clear: both;float: left;">门店新客立减</p>
+		   		<p style="color: red;float: right;">-1</p>
+		   	</div>
+		   	<div>
+		   		<p style="clear: both;float: left;">抵用券</p>
+		   		<p style="float: right;">暂无可用 </p>
+		   	</div>
+		   	<div>
+		   			<p style="clear:both;float: left;">商家代金券</p>
+		   			<a style="float: right;color: #ACACB4;">暂无可用<span class="mui-icon mui-icon-arrowright"></span></a>
+		   	</div>
+		   
+		   	<div>
+		   			<p style="clear:both;float: left;">优惠规则</p>
+		   			<p style="float: right;">已优惠￥25&nbsp;&nbsp;小计49.3</p>
+		   	</div>
+		   
+		   </div>
+		   <div style="width: 92%;height: 140px;border: 1px #BBBBBB solid;margin-left: 4%;border-radius: 15px;margin-top: 10px;">
+		   	<div style="height: 40px;margin-top: 20px;">
+		   		<p style="float: left;">备注</p>
+		   		<a style="float: right;color: #ACACB4;">口味、偏好等要求<span class="mui-icon mui-icon-arrowright"></span></a>
+		   	</div>
+		   	<div style="height: 40px;">
+		   		<p style="clear: both;float: left;">餐具数量</p>
+		   		<a style="float: right;color: #ACACB4;">未选择<span class="mui-icon mui-icon-arrowright"></span></a>
+		   	</div>
+		   	<div style="height: 40px;">
+		   		<p style="clear: both;float: left;">发票</p>
+		   		<a style="float: right;color: #ACACB4;">未选择<span class="mui-icon mui-icon-arrowright"></span></a>
+		   	</div>
+		   	
+		   	
+		   </div>
+		   	<div class="down" style="width: 92%;height: 60px;border: 1px #BBBBBB solid;margin-left: 4%;border-radius: 35px;margin-top: 10px;background-color: black;">
+		   		<div style="margin-left: 15px;float: left;width: 160px;">
+		   			<h3 style="color: white;">￥49.3</h3>
+		   			<p style="color: white;">已优惠25</p>
+		   		</div>
+		   		<div style="float: left;background-color: burlywood;height: 60px;width: 90px;">
+		   			<p style="line-height: 60px;text-align: center;">找人付</p>
+		   		</div>
+		   		<div style="float: right;margin-right: 15px;">
+		   			<p style="line-height: 60px;color: white;">提交订单</p>
+		   		</div>
+		   	</div>
+		   	
+		   	<!--空的div-->
+		   	<div style="height: 100px;"></div>
+		   
+		  
+		</div>
+		
+		
+		
+		
+	</body>
+
+</html>

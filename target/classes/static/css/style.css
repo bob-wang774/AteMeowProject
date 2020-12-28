@@ -1,0 +1,29 @@
+.bgc-header{
+	background-image: url(../images/1.jpg);
+	height: 180px;
+}
+.color{
+	color: white;
+}
+.botton{
+	margin-top: 110px !important;
+}
+.shangjia{
+	border: 1px #B6B6B6 solid;
+	width: 80%;
+	height: 60px;
+	margin: 0 auto;
+	background-color: beige;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+.yuanjiao{
+	border-radius: 15px !important;
+}
+.extra-font{
+	font-size: 15px !important;
+}
+.zhifu{
+	border: 1px red solid ;
+	margin-top: 15px;
+}
